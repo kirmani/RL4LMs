@@ -1,0 +1,373 @@
+2023-01-26 11:40:54,292 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:54,769 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 11:40:54,778 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:55,280 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 11:40:55,285 [DEBUG] Attempting to acquire lock 140310799587632 on /home/sean/.cache/huggingface/transformers/91e9fe874e06c44883b535d6c950b8b89d6eaa3298d8e7fb3b2c78039e9f8b7b.a085189636e38420df5e7bdf08ad1b86f1fe33c010079ca7f15437ff95f4fe2b.lock
+2023-01-26 11:40:55,290 [DEBUG] Lock 140310799587632 acquired on /home/sean/.cache/huggingface/transformers/91e9fe874e06c44883b535d6c950b8b89d6eaa3298d8e7fb3b2c78039e9f8b7b.a085189636e38420df5e7bdf08ad1b86f1fe33c010079ca7f15437ff95f4fe2b.lock
+2023-01-26 11:40:55,293 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:55,696 [DEBUG] https://huggingface.co:443 "GET /t5-base/resolve/main/config.json HTTP/1.1" 200 1208
+2023-01-26 11:40:55,706 [DEBUG] Attempting to release lock 140310799587632 on /home/sean/.cache/huggingface/transformers/91e9fe874e06c44883b535d6c950b8b89d6eaa3298d8e7fb3b2c78039e9f8b7b.a085189636e38420df5e7bdf08ad1b86f1fe33c010079ca7f15437ff95f4fe2b.lock
+2023-01-26 11:40:55,709 [DEBUG] Lock 140310799587632 released on /home/sean/.cache/huggingface/transformers/91e9fe874e06c44883b535d6c950b8b89d6eaa3298d8e7fb3b2c78039e9f8b7b.a085189636e38420df5e7bdf08ad1b86f1fe33c010079ca7f15437ff95f4fe2b.lock
+2023-01-26 11:40:55,712 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:56,107 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 11:40:56,113 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:56,530 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/1.1" 200 0
+2023-01-26 11:40:56,535 [DEBUG] Attempting to acquire lock 140310799362480 on /home/sean/.cache/huggingface/transformers/684a47ca6257e4ca71f0037771464c5b323e945fbc58697d2fad8a7dd1a2f8ba.3b69006860e7b5d0a63ffdddc01ddcd6b7c318a6f4fd793596552c741734c62d.lock
+2023-01-26 11:40:56,539 [DEBUG] Lock 140310799362480 acquired on /home/sean/.cache/huggingface/transformers/684a47ca6257e4ca71f0037771464c5b323e945fbc58697d2fad8a7dd1a2f8ba.3b69006860e7b5d0a63ffdddc01ddcd6b7c318a6f4fd793596552c741734c62d.lock
+2023-01-26 11:40:56,542 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:57,022 [DEBUG] https://huggingface.co:443 "GET /t5-base/resolve/main/spiece.model HTTP/1.1" 200 791656
+2023-01-26 11:40:57,499 [DEBUG] Attempting to release lock 140310799362480 on /home/sean/.cache/huggingface/transformers/684a47ca6257e4ca71f0037771464c5b323e945fbc58697d2fad8a7dd1a2f8ba.3b69006860e7b5d0a63ffdddc01ddcd6b7c318a6f4fd793596552c741734c62d.lock
+2023-01-26 11:40:57,503 [DEBUG] Lock 140310799362480 released on /home/sean/.cache/huggingface/transformers/684a47ca6257e4ca71f0037771464c5b323e945fbc58697d2fad8a7dd1a2f8ba.3b69006860e7b5d0a63ffdddc01ddcd6b7c318a6f4fd793596552c741734c62d.lock
+2023-01-26 11:40:57,508 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:57,932 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2023-01-26 11:40:57,937 [DEBUG] Attempting to acquire lock 140310799359264 on /home/sean/.cache/huggingface/transformers/90de37880b5ff5ac7ab70ff0bd369f207e9b74133fa153c163d14c5bb0116207.8627f1bd5d270a9fd2e5a51c8bec3223896587cc3cfe13edeabb0992ab43c529.lock
+2023-01-26 11:40:57,941 [DEBUG] Lock 140310799359264 acquired on /home/sean/.cache/huggingface/transformers/90de37880b5ff5ac7ab70ff0bd369f207e9b74133fa153c163d14c5bb0116207.8627f1bd5d270a9fd2e5a51c8bec3223896587cc3cfe13edeabb0992ab43c529.lock
+2023-01-26 11:40:57,945 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:58,466 [DEBUG] https://huggingface.co:443 "GET /t5-base/resolve/main/tokenizer.json HTTP/1.1" 200 1389353
+2023-01-26 11:40:59,120 [DEBUG] Attempting to release lock 140310799359264 on /home/sean/.cache/huggingface/transformers/90de37880b5ff5ac7ab70ff0bd369f207e9b74133fa153c163d14c5bb0116207.8627f1bd5d270a9fd2e5a51c8bec3223896587cc3cfe13edeabb0992ab43c529.lock
+2023-01-26 11:40:59,124 [DEBUG] Lock 140310799359264 released on /home/sean/.cache/huggingface/transformers/90de37880b5ff5ac7ab70ff0bd369f207e9b74133fa153c163d14c5bb0116207.8627f1bd5d270a9fd2e5a51c8bec3223896587cc3cfe13edeabb0992ab43c529.lock
+2023-01-26 11:40:59,128 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:59,540 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2023-01-26 11:40:59,547 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:40:59,964 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2023-01-26 11:40:59,972 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:00,389 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 11:41:00,397 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:00,860 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 11:41:00,917 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:41:01,362 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 11:41:01,371 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:01,835 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 11:41:01,843 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:01,963 [DEBUG] https://raw.githubusercontent.com:443 "GET /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 2160
+2023-01-26 11:41:01,982 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:41:02,428 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 11:41:02,436 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:02,745 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 11:41:02,752 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:02,909 [DEBUG] https://raw.githubusercontent.com:443 "GET /huggingface/datasets/2.5.1/metrics/meteor/meteor.py HTTP/1.1" 200 2199
+2023-01-26 11:41:09,210 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:41:09,672 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 11:41:09,680 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:09,806 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 11:41:09,819 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:41:10,272 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 11:41:10,280 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:10,650 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 11:41:10,659 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:10,784 [DEBUG] https://raw.githubusercontent.com:443 "GET /huggingface/datasets/2.5.1/metrics/bleu/bleu.py HTTP/1.1" 200 2478
+2023-01-26 11:41:10,798 [DEBUG] Starting new HTTPS connection (1): github.com:443
+2023-01-26 11:41:11,766 [DEBUG] https://github.com:443 "HEAD /tensorflow/nmt/raw/master/nmt/scripts/bleu.py HTTP/1.1" 302 0
+2023-01-26 11:41:11,772 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:11,990 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /tensorflow/nmt/master/nmt/scripts/bleu.py HTTP/1.1" 200 0
+2023-01-26 11:41:12,000 [DEBUG] Starting new HTTPS connection (1): github.com:443
+2023-01-26 11:41:12,897 [DEBUG] https://github.com:443 "GET /tensorflow/nmt/raw/master/nmt/scripts/bleu.py HTTP/1.1" 302 0
+2023-01-26 11:41:12,903 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:13,040 [DEBUG] https://raw.githubusercontent.com:443 "GET /tensorflow/nmt/master/nmt/scripts/bleu.py HTTP/1.1" 200 1554
+2023-01-26 11:41:13,054 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:41:13,509 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 11:41:13,517 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:13,814 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 11:41:13,822 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:41:13,951 [DEBUG] https://raw.githubusercontent.com:443 "GET /huggingface/datasets/2.5.1/metrics/bertscore/bertscore.py HTTP/1.1" 200 2923
+2023-01-26 11:41:14,124 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:14,575 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 11:41:14,583 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:41:15,032 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 11:41:15,041 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:15,477 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 11:41:15,485 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:15,909 [DEBUG] https://huggingface.co:443 "GET /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 8326
+2023-01-26 11:41:15,919 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:16,342 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 11:41:16,350 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:16,777 [DEBUG] https://huggingface.co:443 "GET /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 9881
+2023-01-26 11:41:16,816 [DEBUG] Starting new HTTPS connection (1): storage.googleapis.com:443
+2023-01-26 11:41:17,108 [DEBUG] https://storage.googleapis.com:443 "HEAD /huggingface-nlp/cache/datasets/cnn_dailymail/3.0.0/3.0.0/dataset_info.json HTTP/1.1" 404 0
+2023-01-26 11:41:17,116 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:17,549 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/11343c3752184397d56efc19a8a7cceb68089318/data/cnn_stories.tgz HTTP/1.1" 302 0
+2023-01-26 11:41:17,558 [DEBUG] Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2023-01-26 11:41:18,115 [DEBUG] https://cdn-lfs.huggingface.co:443 "HEAD /datasets/cnn_dailymail/e8fbc0027e54e0a916abd9c969eb35f708ed1467d7ef4e3b17a56739d65cb200?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27cnn_stories.tgz%3B+filename%3D%22cnn_stories.tgz%22%3B&Expires=1675013362&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL2RhdGFzZXRzL2Nubl9kYWlseW1haWwvZThmYmMwMDI3ZTU0ZTBhOTE2YWJkOWM5NjllYjM1ZjcwOGVkMTQ2N2Q3ZWY0ZTNiMTdhNTY3MzlkNjVjYjIwMD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzUwMTMzNjJ9fX1dfQ__&Signature=EgjCuQKPzTpzt3dDkz7GNMWnrIOrn7dyhm02P3M8cJH5Lh0MsN9jNa376OFJHBKJrRxt3aBxR8cp6Z3U2TL3l6l7WB5cSTIu7rsOil957RuO1Ol--EDd3w6oWsDZiFpo2q8AYc6-sfCboJPLsrxabNjnLSaq3a1inWPJyurY4vKE12A2eP-OLytfiNPdu7TFm4nkepEnoMT5uqGFR0blkkzrNj3QSbSLmNiTNeXUOeJS3gYC-S~~PI-CjJiakjdrvGy0PKp2GxFjRRRfRPLlxbI-bDf9UYdhx3CRggJgJkl~NH5DLTv97GqSouMMo3jsEfkiXtm2JHB0et96d2WUfw__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 0
+2023-01-26 11:41:18,126 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:18,534 [DEBUG] https://huggingface.co:443 "GET /datasets/cnn_dailymail/resolve/11343c3752184397d56efc19a8a7cceb68089318/data/cnn_stories.tgz HTTP/1.1" 302 995
+2023-01-26 11:41:18,542 [DEBUG] Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2023-01-26 11:41:18,693 [DEBUG] https://cdn-lfs.huggingface.co:443 "GET /datasets/cnn_dailymail/e8fbc0027e54e0a916abd9c969eb35f708ed1467d7ef4e3b17a56739d65cb200?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27cnn_stories.tgz%3B+filename%3D%22cnn_stories.tgz%22%3B&Expires=1675014079&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL2RhdGFzZXRzL2Nubl9kYWlseW1haWwvZThmYmMwMDI3ZTU0ZTBhOTE2YWJkOWM5NjllYjM1ZjcwOGVkMTQ2N2Q3ZWY0ZTNiMTdhNTY3MzlkNjVjYjIwMD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzUwMTQwNzl9fX1dfQ__&Signature=bTmO4Ra-aCpzk0Q6GAM4u9EY25Cbigi-k5Oj8QJVKm9oPg6RfZbztxAJsd1oQN3Ykq6npi~UmCKn73p3T37siZWhz6RO3uDieyRJ7qjGQjfF2wVmKAPdhGjHWxK8HlOfgDZ4AguW1A7JO65FDxLZ0CxM1gEWg9yjVXMROvmTyvXVLHa7x-5QWFubYuMxTvRzNOQGQVI~Kr~Gexs4dnAL9Wd3eWi6X7IxmHlT0LeyCrA3qT5jgcAXc1ZFU2iWsWmrXXMsCdt0CqBm72-wK3KGEhLm52AUFIrWqsLZdwGcvo71QSMFK5ALBZJkZXqBNBqOKhVbVkptbGHPTn66tLrKUg__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 158577824
+2023-01-26 11:41:37,598 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:38,054 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/11343c3752184397d56efc19a8a7cceb68089318/data/dailymail_stories.tgz HTTP/1.1" 302 0
+2023-01-26 11:41:38,063 [DEBUG] Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2023-01-26 11:41:38,594 [DEBUG] https://cdn-lfs.huggingface.co:443 "HEAD /datasets/cnn_dailymail/ad69010002210b7c406718248ee66e65868b9f6820f163aa966369878d14147e?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27dailymail_stories.tgz%3B+filename%3D%22dailymail_stories.tgz%22%3B&Expires=1675008322&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL2RhdGFzZXRzL2Nubl9kYWlseW1haWwvYWQ2OTAxMDAwMjIxMGI3YzQwNjcxODI0OGVlNjZlNjU4NjhiOWY2ODIwZjE2M2FhOTY2MzY5ODc4ZDE0MTQ3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzUwMDgzMjJ9fX1dfQ__&Signature=kuxCSXyHrpwxXJypL1bPTEX32nSOY4m7QxNFDH87rUZFUrUH~BDQNfEmE-ilATdyJ0cPX5L2IrAX1A1auilZLGW1vfkLLtGqvO8QPuo3TtRccX4eeeQ2JHCuRGnzWx67FN4muTQV00IKVkX9LuK3ZF2zKaZInveJSt9TNxLTV1ExgZkF7t6c7ZDw7jXNsnn6f4NL7QGNk0V6M-Ck5Em4XNnnzVnzKW10QgbIuxrq1M3lGpBl2dZMu4Eosrh1ywiGaI9EqPHuYdnTnEVTVamUcq6lWJ0kkWEuxi5tB1~sJyand53TEz1d2UA1vHNWYD8nkd21s2-bFZBZrGCuJIq7Fg__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 0
+2023-01-26 11:41:38,605 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:41:39,022 [DEBUG] https://huggingface.co:443 "GET /datasets/cnn_dailymail/resolve/11343c3752184397d56efc19a8a7cceb68089318/data/dailymail_stories.tgz HTTP/1.1" 302 1009
+2023-01-26 11:41:39,030 [DEBUG] Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2023-01-26 11:41:39,162 [DEBUG] https://cdn-lfs.huggingface.co:443 "GET /datasets/cnn_dailymail/ad69010002210b7c406718248ee66e65868b9f6820f163aa966369878d14147e?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27dailymail_stories.tgz%3B+filename%3D%22dailymail_stories.tgz%22%3B&Expires=1675014099&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL2RhdGFzZXRzL2Nubl9kYWlseW1haWwvYWQ2OTAxMDAwMjIxMGI3YzQwNjcxODI0OGVlNjZlNjU4NjhiOWY2ODIwZjE2M2FhOTY2MzY5ODc4ZDE0MTQ3ZT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzUwMTQwOTl9fX1dfQ__&Signature=JWO8pGegtdHf63bTa7lGAFc0skyi9MjUod6tldVEkhOJlBpWy4W~lpC4rNq5th0B1C11b8ypFpsi9dxiZVPg2JCYomkzw1sBneAoExY3d6Vk2ltpqAaPa2yOXWnE9dc0zitDShPyggBckGZ108wPwYTo3Ghn0Xm34FxkD6MnS-bZynOv4dqB4T5ij7zv8bW6u1dolOeT6izDqGS1x2fRwyt3dUqMuGMWbCQxIwsPWyFvY2d4qR5POcoW8GX92Q3l6hNWMTBP5lXxp~sl-1~PpOI76rnRsrOJHkl1AXmPBqDR5JRO60ySJcZkmJTh45OUhUl6LOSwfrD4AwPze~N9CQ__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 375893739
+2023-01-26 11:42:40,432 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:42:44,441 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /abisee/cnn-dailymail/master/url_lists/all_train.txt HTTP/1.1" 200 0
+2023-01-26 11:42:44,450 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:42:44,583 [DEBUG] https://raw.githubusercontent.com:443 "GET /abisee/cnn-dailymail/master/url_lists/all_train.txt HTTP/1.1" 200 12259516
+2023-01-26 11:42:46,045 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:42:46,790 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /abisee/cnn-dailymail/master/url_lists/all_val.txt HTTP/1.1" 200 0
+2023-01-26 11:42:46,799 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:42:46,927 [DEBUG] https://raw.githubusercontent.com:443 "GET /abisee/cnn-dailymail/master/url_lists/all_val.txt HTTP/1.1" 200 660943
+2023-01-26 11:42:47,056 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:42:47,716 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /abisee/cnn-dailymail/master/url_lists/all_test.txt HTTP/1.1" 200 0
+2023-01-26 11:42:47,725 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 11:42:47,866 [DEBUG] https://raw.githubusercontent.com:443 "GET /abisee/cnn-dailymail/master/url_lists/all_test.txt HTTP/1.1" 200 572061
+2023-01-26 11:42:49,227 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de.incomplete/cnn_dailymail-train.arrow
+2023-01-26 11:43:52,242 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de.incomplete/cnn_dailymail-validation.arrow
+2023-01-26 11:44:19,664 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de.incomplete/cnn_dailymail-test.arrow
+2023-01-26 11:44:47,455 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de.incomplete/dataset_info.json
+2023-01-26 11:45:05,753 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:45:06,298 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 11:45:06,308 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:45:06,775 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 11:45:06,785 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:45:07,242 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 11:45:07,253 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:45:07,686 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 11:45:07,706 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 11:45:07,718 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 11:45:07,721 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 11:45:09,297 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:45:09,759 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 11:45:09,769 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 11:45:10,296 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 11:45:10,306 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:45:10,754 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 11:45:10,764 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:45:11,224 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 11:45:11,244 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 11:45:11,257 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 11:45:11,260 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 11:46:31,540 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:46:32,018 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 11:46:32,051 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:46:32,495 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2023-01-26 11:46:32,504 [DEBUG] Attempting to acquire lock 140308664681664 on /home/sean/.cache/huggingface/transformers/ab4e948915b067f5cb6e5105f6f85044fd717b133f43240db67899a8fc7b29a2.26934c75adf19ceac3c268b721ba353356b7609c45f5627550326f275a2163b4.lock
+2023-01-26 11:46:32,507 [DEBUG] Lock 140308664681664 acquired on /home/sean/.cache/huggingface/transformers/ab4e948915b067f5cb6e5105f6f85044fd717b133f43240db67899a8fc7b29a2.26934c75adf19ceac3c268b721ba353356b7609c45f5627550326f275a2163b4.lock
+2023-01-26 11:46:32,511 [DEBUG] Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2023-01-26 11:46:32,723 [DEBUG] https://cdn-lfs.huggingface.co:443 "GET /t5-base/ab97165968edc4aacd30554d18d7beca7f18b3a83e1a47abbad29792d984651f?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&Expires=1675005509&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3Q1LWJhc2UvYWI5NzE2NTk2OGVkYzRhYWNkMzA1NTRkMThkN2JlY2E3ZjE4YjNhODNlMWE0N2FiYmFkMjk3OTJkOTg0NjUxZj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzUwMDU1MDl9fX1dfQ__&Signature=JNsA~HA3MUmCYZOr-7qZ9nf17Q6WooF5h1oEepBilju-z5Ir9WXKt6u9V18~dHA-gMUyMgOVHYASBR1LY2mA44kYLk4pGkuLU~1FDbBk5lqpsDtevt1IaZbsuchjCeindU4ChLeqTYVgutp9mEVUeEoV4738iKuYTwCp5-t2eBFOuxVqy~TklTbhIdTY4qtj5lXyDM4Gg~fJnT8WSMC6wx76m2dgyHE7aObR5DURGxmu1a8ZJn~Kilv~6G51EIv~6RpYib87iBu7hwhh3EcXB6Mz~POfC-KovSwkvORH-I3hpgWzOIZG8X9enxL-jR32tado~09K~jlJGcL1k~1EOA__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 891691430
+2023-01-26 11:48:32,343 [DEBUG] Attempting to release lock 140308664681664 on /home/sean/.cache/huggingface/transformers/ab4e948915b067f5cb6e5105f6f85044fd717b133f43240db67899a8fc7b29a2.26934c75adf19ceac3c268b721ba353356b7609c45f5627550326f275a2163b4.lock
+2023-01-26 11:48:32,345 [DEBUG] Lock 140308664681664 released on /home/sean/.cache/huggingface/transformers/ab4e948915b067f5cb6e5105f6f85044fd717b133f43240db67899a8fc7b29a2.26934c75adf19ceac3c268b721ba353356b7609c45f5627550326f275a2163b4.lock
+2023-01-26 11:48:34,849 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:48:35,310 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 11:48:35,321 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 11:48:35,741 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2023-01-26 12:46:06,434 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:06,877 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 12:46:06,886 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:07,301 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:46:07,311 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:07,742 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 12:46:07,750 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:08,177 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/1.1" 200 0
+2023-01-26 12:46:08,185 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:08,607 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2023-01-26 12:46:08,612 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:09,026 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2023-01-26 12:46:09,034 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:09,482 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2023-01-26 12:46:09,490 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:09,990 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 12:46:09,997 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:10,506 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:46:10,568 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:11,022 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:46:11,031 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:46:11,425 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:46:11,445 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:11,904 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 12:46:11,912 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:46:12,243 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 12:46:12,464 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:13,062 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:46:13,067 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:46:13,207 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:46:13,221 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:13,680 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 12:46:13,688 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:46:13,989 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 12:46:14,002 [DEBUG] Starting new HTTPS connection (1): github.com:443
+2023-01-26 12:46:14,220 [DEBUG] https://github.com:443 "HEAD /tensorflow/nmt/raw/master/nmt/scripts/bleu.py HTTP/1.1" 302 0
+2023-01-26 12:46:14,225 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:46:14,605 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /tensorflow/nmt/master/nmt/scripts/bleu.py HTTP/1.1" 200 0
+2023-01-26 12:46:14,619 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:15,136 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 12:46:15,145 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:46:15,520 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 12:46:15,558 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:16,032 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 12:46:16,041 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:16,499 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:46:16,507 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:16,913 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:46:16,922 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:17,345 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 12:46:17,362 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:46:17,392 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 12:46:17,393 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:46:36,138 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:36,595 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 12:46:36,605 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:37,061 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:46:37,071 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:37,483 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:46:37,493 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:37,905 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 12:46:37,923 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:46:37,929 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 12:46:37,931 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:46:38,786 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:39,270 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 12:46:39,281 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:46:39,733 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:46:39,744 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:40,160 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:46:40,171 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:46:40,603 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 12:46:40,619 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:46:40,625 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 12:46:40,626 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:47:52,237 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:47:52,696 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:47:52,728 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:47:53,298 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2023-01-26 12:47:56,201 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:47:56,617 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:47:56,625 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:47:57,039 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2023-01-26 12:53:13,386 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:13,827 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 12:53:13,835 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:14,239 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:53:14,249 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:14,651 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 12:53:14,659 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:15,074 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/1.1" 200 0
+2023-01-26 12:53:15,079 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:15,482 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2023-01-26 12:53:15,491 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:15,896 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2023-01-26 12:53:15,904 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:16,311 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2023-01-26 12:53:16,319 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:16,727 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 12:53:16,734 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:17,147 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:53:17,205 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:17,659 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:53:17,669 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:53:18,038 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:53:18,062 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:18,518 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 12:53:18,526 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:53:18,858 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 12:53:19,073 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:19,526 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:53:19,534 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:53:19,655 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 12:53:19,670 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:20,122 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 12:53:20,130 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:53:20,496 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 12:53:20,510 [DEBUG] Starting new HTTPS connection (1): github.com:443
+2023-01-26 12:53:20,906 [DEBUG] https://github.com:443 "HEAD /tensorflow/nmt/raw/master/nmt/scripts/bleu.py HTTP/1.1" 302 0
+2023-01-26 12:53:20,912 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:53:21,118 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /tensorflow/nmt/master/nmt/scripts/bleu.py HTTP/1.1" 200 0
+2023-01-26 12:53:21,132 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:21,570 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 12:53:21,578 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 12:53:21,930 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 12:53:21,964 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:22,392 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 12:53:22,400 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:22,852 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:53:22,859 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:23,265 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:53:23,274 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:23,711 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 12:53:23,728 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:53:23,756 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 12:53:23,758 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:53:42,203 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:42,633 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 12:53:42,644 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:43,099 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:53:43,109 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:43,548 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:53:43,560 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:43,994 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 12:53:44,013 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:53:44,020 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 12:53:44,021 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:53:44,869 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:45,295 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 12:53:45,305 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 12:53:45,773 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:53:45,783 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:46,206 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 12:53:46,218 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:53:46,639 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 12:53:46,655 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:53:46,662 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 12:53:46,666 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 12:54:58,535 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:54:59,002 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:54:59,033 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:54:59,437 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2023-01-26 12:55:02,354 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:55:02,769 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 12:55:02,783 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 12:55:03,209 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2023-01-26 13:00:03,557 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:04,085 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 13:00:04,094 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:04,504 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 13:00:04,515 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:04,931 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 13:00:04,939 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:05,389 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/1.1" 200 0
+2023-01-26 13:00:05,399 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:05,808 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2023-01-26 13:00:05,816 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:06,233 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2023-01-26 13:00:06,242 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:06,657 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2023-01-26 13:00:06,665 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:07,107 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023-01-26 13:00:07,115 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:07,536 [DEBUG] https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-01-26 13:00:07,598 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 13:00:08,052 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 13:00:08,061 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 13:00:08,352 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 13:00:08,372 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 13:00:08,823 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 13:00:08,831 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 13:00:09,275 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/meteor/meteor.py HTTP/1.1" 200 0
+2023-01-26 13:00:09,490 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 13:00:10,008 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 13:00:10,015 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 13:00:10,189 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/rouge/rouge.py HTTP/1.1" 200 0
+2023-01-26 13:00:10,203 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 13:00:10,673 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 13:00:10,682 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 13:00:11,172 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bleu/bleu.py HTTP/1.1" 200 0
+2023-01-26 13:00:11,186 [DEBUG] Starting new HTTPS connection (1): github.com:443
+2023-01-26 13:00:11,514 [DEBUG] https://github.com:443 "HEAD /tensorflow/nmt/raw/master/nmt/scripts/bleu.py HTTP/1.1" 302 0
+2023-01-26 13:00:11,521 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 13:00:11,834 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /tensorflow/nmt/master/nmt/scripts/bleu.py HTTP/1.1" 200 0
+2023-01-26 13:00:11,849 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 13:00:12,323 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 13:00:12,332 [DEBUG] Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2023-01-26 13:00:12,650 [DEBUG] https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/2.5.1/metrics/bertscore/bertscore.py HTTP/1.1" 200 0
+2023-01-26 13:00:12,685 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:13,098 [DEBUG] https://huggingface.co:443 "GET /api/datasets/cnn_dailymail HTTP/1.1" 200 3728
+2023-01-26 13:00:13,106 [DEBUG] Starting new HTTPS connection (1): s3.amazonaws.com:443
+2023-01-26 13:00:13,545 [DEBUG] https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/cnn_dailymail/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 13:00:13,549 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:13,952 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/cnn_dailymail.py HTTP/1.1" 200 0
+2023-01-26 13:00:13,962 [DEBUG] Starting new HTTPS connection (1): huggingface.co:443
+2023-01-26 13:00:14,380 [DEBUG] https://huggingface.co:443 "HEAD /datasets/cnn_dailymail/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+2023-01-26 13:00:14,398 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
+2023-01-26 13:00:14,438 [WARNING] Found cached dataset cnn_dailymail (/home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de)
+2023-01-26 13:00:14,441 [DEBUG] open file: /home/sean/.cache/huggingface/datasets/cnn_dailymail/3.0.0/3.0.0/1b3c71476f6d152c31c1730e83ccb08bcf23e348233f4fcc11e182248e6bf7de/dataset_info.json
