@@ -5,9 +5,7 @@ tokenizer:
   pad_token_as_eos_token: False
 
 reward_fn:
-  id: rouge
-  args:
-    rouge_type: "rouge1"
+  id: semantic_similarity
 
 datapool:
   id: email_writer

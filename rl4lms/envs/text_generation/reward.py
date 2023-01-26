@@ -382,6 +382,23 @@ class SpiderRewardFunction(BatchedRewardFunction):
         return rewards
 
 
+class SemanticSimilarityFunction(RewardFunction):
+   def __init__(self, *args) -> None:
+       super().__init__()
+
+   def __call__(self, prev_observation: Observation,
+                action: int,
+                current_observation: Observation,
+                done: bool,
+                meta_info: Dict[str, Any] = None) -> float:
+       if done:
+           input_embedding = compute_embedding(current_observation)
+           target_embedding = compute_embedding(target_or_reference_texts[0])
+           reward = torch.nn.functional.cosine_similarity(input_embedding, target_embedding)
+           return reward
+       return 0
+
+
 #############################################################################
 
 ########## Learned Reward Functions##########################################
@@ -639,4 +656,7 @@ if __name__ == "__main__":
     print(reward_fn(None, None, observation, True))
 
     reward_fn = BLEURTRewardFunction()
+    print(reward_fn(None, None, observation, True))
+
+    reward_fn = SemanticSimilarityFunction()
     print(reward_fn(None, None, observation, True))
