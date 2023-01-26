@@ -582,6 +582,20 @@ class DailyDialog(TextGenPool):
         return dp_instance
 
 
+class EmailWriterPool(TextGenPool):
+   @classmethod
+   def prepare(cls, split: str):
+       samples = []
+       for ix, item in enumerate(..):
+           sample = Sample(id=f"{split}_{ix}",
+                           prompt_or_input_text=item["document"],
+                           references=[item["target"]]
+                           )
+           samples.append(sample)
+       pool_instance = cls(samples)
+       return pool_instance
+
+
 if __name__ == "__main__":
     from transformers import AutoTokenizer
     import numpy as np

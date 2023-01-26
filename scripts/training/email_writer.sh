@@ -8,5 +8,5 @@
 
 
 python scripts/training/train_text_generation.py \
-  --config_path scripts/training/task_configs/summarization/t5_ppo_email_generation.yml \
+  --config_path scripts/training/task_configs/email_writer/t5_ppo.yml \
   --entity_name=kirmani
