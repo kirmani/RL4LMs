@@ -396,13 +396,14 @@ class SemanticSimilarityFunction(RewardFunction):
                 meta_info: Dict[str, Any] = None) -> float:
        if done:
            embeddings = self._similarity_model.encode([
-               current_observation.prompt_or_input_text,
-               current_observation.target_or_reference_texts,
+               current_observation.context_text,
+               current_observation.target_or_reference_texts[0],
                ])
            input_embedding = embeddings[0]
            target_embedding = embeddings[1]
-           reward = torch.nn.functional.cosine_similarity(input_embedding, target_embedding)
-           return reward
+           cosine_similarity = (np.dot(input_embedding, target_embedding) /
+                   (np.linalg.norm(input_embedding) * np.linalg.norm(target_embedding)))
+           return cosine_similarity
        return 0
 
 
