@@ -582,18 +582,35 @@ class DailyDialog(TextGenPool):
         return dp_instance
 
 
-class EmailWriterPool(TextGenPool):
-   @classmethod
-   def prepare(cls, split: str):
-       samples = []
-       for ix, item in enumerate(..):
-           sample = Sample(id=f"{split}_{ix}",
-                           prompt_or_input_text=item["document"],
-                           references=[item["target"]]
-                           )
-           samples.append(sample)
-       pool_instance = cls(samples)
-       return pool_instance
+class EmailWriter(TextGenPool):
+    SOURCE_URL = "https://raw.githubusercontent.com/ZhangShiyue/EmailSum/main/Avocado/summaries/EmailSum_data.json"
+
+    @classmethod
+    def prepare(cls, split: str,
+                prompt_prefix: str = ""):
+        # destination path
+        dest_path = os.path.join(Path.home(), "email_writer/EmailSum_data.json")
+        os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+
+        # download the file
+        download_file_using_url(EmailWriter.SOURCE_URL, dest_path)
+
+        # parse data
+        with open(dest_path, 'r') as j:
+            contents = json.load(j)
+        all_data = contents["data"]
+
+        samples = []
+        for split in ['train', 'test']:
+            examples = all_data[split]
+            for index, example in enumerate(examples):
+                sample = Sample(id=f"{split}_{index}",
+                                prompt_or_input_text=prompt_prefix + example["short_summary"]["content"],
+                                references=[example["long_summary"]["content"]]
+                                )
+                samples.append(sample)
+        pool_instance = cls(samples)
+        return pool_instance
 
 
 if __name__ == "__main__":
@@ -601,4 +618,3 @@ if __name__ == "__main__":
     import numpy as np
     dp = DailyDialog.prepare("val", 5)
     print(dp[0])
-    
