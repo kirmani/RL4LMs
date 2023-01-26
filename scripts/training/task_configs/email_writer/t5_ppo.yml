@@ -10,7 +10,7 @@ reward_fn:
 datapool:
   id: email_writer
   args:
-    prompt_prefix: "Summarize: "
+    prompt_prefix: "Write email: "
 
 
 env:
