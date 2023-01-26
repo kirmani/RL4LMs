@@ -17,6 +17,7 @@ from rl4lms.envs.text_generation.metric import (
     IntentAccuracyDailyDialog,
 )
 import numpy as np
+from sentence_transformers import SentenceTransformer
 from typing import List, Dict, Any
 
 
@@ -383,8 +384,10 @@ class SpiderRewardFunction(BatchedRewardFunction):
 
 
 class SemanticSimilarityFunction(RewardFunction):
-   def __init__(self, *args) -> None:
+   def __init__(self, model_name='sentence-transformers/all-MiniLM-L6-v2') -> None:
        super().__init__()
+       self._similarity_model = SentenceTransformer(model_name)
+
 
    def __call__(self, prev_observation: Observation,
                 action: int,
@@ -392,8 +395,12 @@ class SemanticSimilarityFunction(RewardFunction):
                 done: bool,
                 meta_info: Dict[str, Any] = None) -> float:
        if done:
-           input_embedding = compute_embedding(current_observation)
-           target_embedding = compute_embedding(target_or_reference_texts[0])
+           embeddings = self._similarity_model.encode([
+               current_observation.prompt_or_input_text,
+               current_observation.target_or_reference_texts,
+               ])
+           input_embedding = embeddings[0]
+           target_embedding = embeddings[1]
            reward = torch.nn.functional.cosine_similarity(input_embedding, target_embedding)
            return reward
        return 0
@@ -631,32 +638,32 @@ if __name__ == "__main__":
         None, None, None, None, None, predictions, references, None, None, None, None
     )
 
-    reward_fn = MeteorRewardFunction()
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = MeteorRewardFunction()
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = chrF()
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = chrF()
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = RougeCombined()
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = RougeCombined()
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = RougeRewardFunction(rouge_type="rouge1")
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = RougeRewardFunction(rouge_type="rouge1")
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = RougeRewardFunction(rouge_type="rouge2")
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = RougeRewardFunction(rouge_type="rouge2")
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = RougeRewardFunction(rouge_type="rougeL")
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = RougeRewardFunction(rouge_type="rougeL")
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = BERTScoreRewardFunction(language="en")
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = BERTScoreRewardFunction(language="en")
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = BLEURewardFunction()
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = BLEURewardFunction()
+    # print(reward_fn(None, None, observation, True))
 
-    reward_fn = BLEURTRewardFunction()
-    print(reward_fn(None, None, observation, True))
+    # reward_fn = BLEURTRewardFunction()
+    # print(reward_fn(None, None, observation, True))
 
     reward_fn = SemanticSimilarityFunction()
     print(reward_fn(None, None, observation, True))

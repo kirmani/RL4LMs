@@ -22,3 +22,4 @@ py-rouge==1.1
 absl-py
 six
 protobuf==3.20.*
+sentence-transformers
