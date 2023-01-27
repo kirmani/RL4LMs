@@ -25,8 +25,8 @@ env:
 alg:
   id: ppo
   args:
-    n_steps: 2048
-    batch_size: 16
+    n_steps: 4096
+    batch_size: 8
     verbose: 1
     learning_rate: 0.000002
     n_epochs: 5
