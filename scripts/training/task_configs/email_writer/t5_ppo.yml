@@ -14,7 +14,7 @@ datapool:
 
 
 env:
-  n_envs: 3
+  n_envs: 1
   args:
     max_prompt_length: 512
     max_episode_length: 100
@@ -25,8 +25,8 @@ env:
 alg:
   id: ppo
   args:
-    n_steps: 32768
-    batch_size: 1
+    n_steps: 16384
+    batch_size: 2
     verbose: 1
     learning_rate: 0.000002
     n_epochs: 5
