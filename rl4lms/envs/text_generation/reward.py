@@ -399,10 +399,10 @@ class SemanticSimilarityFunction(RewardFunction):
                current_observation.context_text,
                current_observation.target_or_reference_texts[0],
                ])
-           input_embedding = embeddings[0]
+           predicted_embedding = embeddings[0]
            target_embedding = embeddings[1]
-           cosine_similarity = (np.dot(input_embedding, target_embedding) /
-                   (np.linalg.norm(input_embedding) * np.linalg.norm(target_embedding)))
+           cosine_similarity = (np.dot(predicted_embedding, target_embedding) /
+                   (np.linalg.norm(predicted_embedding) * np.linalg.norm(target_embedding)))
            return cosine_similarity
        return 0
 
@@ -639,32 +639,32 @@ if __name__ == "__main__":
         None, None, None, None, None, predictions, references, None, None, None, None
     )
 
-    # reward_fn = MeteorRewardFunction()
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = MeteorRewardFunction()
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = chrF()
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = chrF()
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = RougeCombined()
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = RougeCombined()
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = RougeRewardFunction(rouge_type="rouge1")
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = RougeRewardFunction(rouge_type="rouge1")
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = RougeRewardFunction(rouge_type="rouge2")
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = RougeRewardFunction(rouge_type="rouge2")
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = RougeRewardFunction(rouge_type="rougeL")
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = RougeRewardFunction(rouge_type="rougeL")
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = BERTScoreRewardFunction(language="en")
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = BERTScoreRewardFunction(language="en")
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = BLEURewardFunction()
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = BLEURewardFunction()
+    print(reward_fn(None, None, observation, True))
 
-    # reward_fn = BLEURTRewardFunction()
-    # print(reward_fn(None, None, observation, True))
+    reward_fn = BLEURTRewardFunction()
+    print(reward_fn(None, None, observation, True))
 
     reward_fn = SemanticSimilarityFunction()
     print(reward_fn(None, None, observation, True))
